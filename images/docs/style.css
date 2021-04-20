@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+
+}
+.box div{
+    align-items: flex-end;
+    padding: 10px;
+    border: 2px solid gray;
+}
+.box2 div{
+    padding: 10px;
+    border: 2px solid green;
+}
+.box-1{
+    flex:2;
+}
+.box-4,.box-5,.box-6{
+    width: 20%;
+}
